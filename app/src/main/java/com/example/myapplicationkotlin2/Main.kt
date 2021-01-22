@@ -51,10 +51,10 @@ var numx = 42
 //9.  Asignar un valor a la variable Float.
 var miNumeroFloat: Float = 34.43F
 
-var miNumeroByte: Byte = 127
-var minumeroShort: Short = 32767
-var minumeroInt: Int = -2147483648
-var minumerolong: Long = 	-9_223_372_036_854_775_807
+var miNumeroByte: Byte = Byte.MAX_VALUE
+var minumeroShort: Short = Short.MAX_VALUE
+var minumeroInt: Int = Int.MIN_VALUE
+var minumerolong: Long = 	Long.MIN_VALUE
 
 // 13. Crear una función llamada “imprimiendoParametros” que recibe 2
 //     parámetros String y imprime el total de caracteres de los dos parámetros.
